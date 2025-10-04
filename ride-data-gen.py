@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-dates = pd.date_range("2025-10-01", "2025-10-03")
+dates = pd.date_range("2025-10-01", "2025-10-06")
 rows = []
 
 for d in dates:
