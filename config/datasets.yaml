@@ -1,0 +1,9 @@
+dataset_config:
+  <database_name_1>
+    <dataset_name_1>
+      dataset_partition_columns:
+      cadence:
+      archival_ttl:
+      archival_datestr_column:
+      delete_source_data_on_archival:
+      archival_range_soft_limit:

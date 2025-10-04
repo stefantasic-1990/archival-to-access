@@ -1,0 +1,14 @@
+default_config: &default_config
+  archival_ttl:
+  schema_mode:
+  delete_on_archive:
+
+database_config:
+  <database_name_1>:
+    database_id:
+    schema_name:
+    database_base_path:
+    archival_queue_size:
+    local_dir_path:
+    archival_storage_base_path:
+    <<: *default_config
