@@ -55,7 +55,7 @@ services:
       MINIO_ROOT_PASSWORD: minioadmin
     restart: always
     volumes:
-      - ./minio:/data
+      - ./data/minio:/data
 
   postgres:
     image: postgres:16
