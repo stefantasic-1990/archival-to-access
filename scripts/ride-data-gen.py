@@ -15,7 +15,7 @@ for d in dates:
 
 df = pd.DataFrame(rows)
 df.to_parquet(
-    "hot/rides",
+    "../data/rides",
     partition_cols=["ds"],
     index=False
 )
